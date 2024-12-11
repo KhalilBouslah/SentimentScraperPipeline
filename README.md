@@ -7,19 +7,19 @@ First you need to install apache airflow locally or on docker (windows use)
 sudo mdkir airflow 
 cd airflow
 
-#Create new python Environment
+#Create new python Environment:
 python -m venv airflow-env
 
-#install airflow package
+#install airflow package:
 pip install apache-airflow
 
-#actiate airflow environment
+#actiate airflow environment:
 source airflow-env/bin/activate
 
-#Set the Airflow Home Directory
+#Set the Airflow Home Directory:
 export AIRFLOW_HOME=~/airflow
 
-#Open apache airflow(you nee to activate the environment to execute this code)
+#Open apache airflow(you nee to activate the environment to execute this code):
 python -m airflow standalone
 
 #Your apache airflow is set at localhost:8080 by default and username and password are by default 'airflow' 
