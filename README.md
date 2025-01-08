@@ -1,6 +1,7 @@
 # SentimentScraperPipeline
 An end-to-end ETL pipeline designed to collect user reviews, analyze sentiments with an NLTK model, and store the results in a database, all orchestrated with Apache Airflow
-
+# Project architecture:
+![Web_scrapping](https://github.com/KhalilBouslah/SentimentScraperPipeline/blob/main/web_scrapping_pipeline.png)
 First you need to install apache airflow locally or on docker (windows use)
 
 #Installation of apache airflow:(using bash)
