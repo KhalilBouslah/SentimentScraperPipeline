@@ -31,8 +31,10 @@ First you need to install apache airflow locally or on docker (windows use)
 #Copy the python scripts to a folder called dags in airflow floder 
 
 #Open your apache airflow on browser and search for dag folder which is by default 'dags' (You can change it by executing airflow.cfg file)
-
-
-
-
+# Tasks on Airflow:
+![Tasks on airflow](https://github.com/KhalilBouslah/SentimentScraperPipeline/blob/main/Tasks_airflow.png)
+# Maria db after running the job:
+![Table on Maria_db](https://github.com/KhalilBouslah/SentimentScraperPipeline/blob/main/Database_loaded.png)
+# Conclusion:
+This project demonstrates the complete workflow of web scraping using Selenium and BeautifulSoup, data cleaning with Pandas, sentiment analysis using an NLP model built with NLTK, and data storage in MariaDB. The entire process is orchestrated efficiently using Apache Airflow, resulting in a scalable and robust data pipeline.
 
