@@ -4,23 +4,26 @@ An end-to-end ETL pipeline designed to collect user reviews, analyze sentiments 
 First you need to install apache airflow locally or on docker (windows use)
 
 #Installation of apache airflow:(using bash)
-sudo mdkir airflow 
-cd airflow
+            
+    sudo mdkir airflow && cd airflow
 
-#Create new python Environment:
-python -m venv airflow-env
+# Create new python Environment:
 
-#install airflow package:
-pip install apache-airflow
+    python -m venv airflow-env
 
-#actiate airflow environment:
-source airflow-env/bin/activate
+# install airflow package:
+ 
+    pip install apache-airflow
 
-#Set the Airflow Home Directory:
-export AIRFLOW_HOME=~/airflow
+# actiate airflow environment:
 
-#Open apache airflow(you nee to activate the environment to execute this code):
-python -m airflow standalone
+    source airflow-env/bin/activate
+
+# Set the Airflow Home Directory:
+    export AIRFLOW_HOME=~/airflow
+
+# Open apache airflow(you nee to activate the environment to execute this code):
+    python -m airflow standalone
 
 #Your apache airflow is set at localhost:8080 by default and username and password are by default 'airflow' 
 
