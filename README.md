@@ -15,7 +15,7 @@ First you need to install apache airflow locally or on docker (windows use)
  
     pip install apache-airflow
 
-# actiate airflow environment:
+# activate airflow environment:
 
     source airflow-env/bin/activate
 
